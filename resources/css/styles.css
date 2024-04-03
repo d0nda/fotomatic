@@ -181,7 +181,7 @@ html {
   /* Sign Up Section */
   
   .banner {
-    background-image: url('/images/banner-landingpage.jpg');
+    background-image: url("./images/banner-landingpage.jpg");
     background-size: cover;
   }
   
