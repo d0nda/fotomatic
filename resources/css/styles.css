@@ -82,7 +82,7 @@ html {
     display: none;
   }
   
-  @media only screen and (max-width: 760px) {
+  @media only screen and (min-width: 450px) and (max-width: 760px) {
   
     header {
       position: fixed;
@@ -94,7 +94,8 @@ html {
     header .logo {
       font-size: 1.5em;
       font-family: "Roboto", sans-serif;
-      margin-left: 20px;
+      margin-bottom: 50px;
+      margin: 0 auto;
     }
   
     header .content {
@@ -139,13 +140,13 @@ html {
     }
   }
   
-  @media only screen and (max-width: 450px) {
+  @media only screen and (min-width: 300px) and (max-width: 450px) {
     header .desktop {
       display: none;
     }
   
     header .mobile {
-      display: block;
+      display: flex;
       width: 100%;
     }
   
@@ -156,7 +157,7 @@ html {
     header .mobile ul {
       display: flex;
       margin:  -0.4rem;
-      margin-left: 1rem;
+      margin-left: 0.1rem;
       align-items: center;
       margin-bottom: 10px;
       width: 100%;
@@ -164,17 +165,16 @@ html {
   
     header .mobile li {
       padding: 0;
-      margin-left: 20px;
       padding-left: 2rem;
+      margin: 0 auto;
     }
     
   
     header .mobile .button {
-      padding: .4875rem .5rem;
+      padding: .4875rem .2rem;
       background-color: #9dc20b;
-      line-height: 1.6;
       color: white;
-      margin-left: 4rem;
+      margin: 0 auto;
     }
   }
   
@@ -294,7 +294,8 @@ html {
       background-image: url('/resources/images/banner-landingpage.jpg');
       background-size: cover;
       background-position: center;
-      max-width: 100%;
+      width: 100%;
+
     }
   
     #sign-up-cta .header {
@@ -312,29 +313,7 @@ html {
     }
   }
   
-  /*@media only screen and (max-width: 320px) {
-    #sign-up-section {
-      margin-top: 10px;
-      align-items: center;
-      justify-content: center;
-      height: 18rem;
-      
-    }
-    .banner {
-      background-image: url('/resources/images/banner-landingpage.jpg');
-      background-size: cover;
-      background-position: center;
-      max-width: 100%;
-    }
-  
-    #sign-up-cta h1 {
-      font-size: 2.25rem;
-    }
-  
-    #sign-up-cta h2 {
-      font-size: 2rem;
-    }
-  } */
+
   
   /* Features Section */
   
