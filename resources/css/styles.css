@@ -244,7 +244,7 @@ html {
     }
   
     .banner {
-      background-image: url('/resources/images/banner-landingpage.jpg');
+      background-image: url('/fotomatic/resources/images/banner-landingpage.jpg');
       background-size: cover;
       background-position: center;
       max-width: 100%;
@@ -291,7 +291,7 @@ html {
       
     }
     .banner {
-      background-image: url('/resources/images/banner-landingpage.jpg');
+      background-image: url('/fotomatic/resources/images/banner-landingpage.jpg');
       background-size: cover;
       background-position: center;
       width: 100%;
